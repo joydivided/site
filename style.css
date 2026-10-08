@@ -198,6 +198,7 @@ transform:scale(1.6);
     margin: 0;
     transform: scale(1.2);
     transform-origin:center;
+    overflow:hidden;
 }
 
 .projects:hover{
