@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     column-gap: 35px;
-    padding:-20px;
-    height: 50px;
+    padding:0 20px;
+    height:calc(4vh + 10px);
     font-family: "pliant", sans-serif;
     list-style:none;
     position:fixed;
@@ -15,9 +15,8 @@
     z-index:1000;
     backdrop-filter:blur(5px);
     background-color: rgba(15, 15, 15, 0.75);
-    width:400px;
+    width:calc(37vh + 10px);
     border-radius:30px;
-
 }
 
 a{
@@ -35,12 +34,12 @@ a:hover{
     justify-content:center;
     transform:scale(1.6);
     transform-origin:center;
-    margin:75px;
+    margin:8vh;
 }
 
 .avatar img { 
-    width: 140px; 
-    height:140px;
+    width: 15vh; 
+    height:15vh;
     object-fit: cover; 
     border: 2px solid rgba(255, 255, 255, 0.85); 
     border-radius: 50%; 
@@ -51,7 +50,7 @@ body{
     background-color:black;
     font-family: "pliant", sans-serif;
     justify-content: center;
-    margin:35px;
+    margin:5vh;
     flex-direction:column;
     color:white;
     cursor: url('https://i.ibb.co/pBDk9Ndd/dot.png'), auto;
@@ -85,9 +84,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height:400px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top:4vh;
+    padding-bottom: 3vh;
     margin: 0;
 }
 
@@ -95,19 +93,19 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    width: 100px;
-    height: 42px;
-    border-radius: 28px;
+    width: 10vh;
+    height: 4vh;
+    border-radius: 5vh;
     border:1px solid rgba(255, 255, 255, 0.16);
     background:rgba(28, 28, 28, 0.92);
     color:white;
-    font-size: 14px;
+    font-size: 1.2vh;
     line-height:1;
     transition:transform 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cb:hover {
-    transform:translateY(-4px);
+    transform:translateY(-0.7vh);
     color: #9cc9ff;
     border-color:rgba(156, 201, 255, 0.5);
     box-shadow:0 15px 40px rgba(80, 150, 255, 0.12);
@@ -128,25 +126,17 @@ color:white;
     transform-origin:center;
 }
 
-.photos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 35px;
-    max-width: 1200px;
-}
-
 .portbio{
     text-align: center;
     color:white;
     background-color:black;
-    transform: translateY(50px);
-    padding-top: 20px;
+    transform: translateY(4vh);
+    padding-top: 2vh;
 }
 
 .portbio img{
-margin:25px;
-border-radius:30px;
+margin:2.2vh;
+border-radius:2.8vh;
 transition:transform 0.3s ease-in-out;
 }
 
@@ -175,16 +165,16 @@ transform:scale(1.6);
     align-items:center;
     text-align:center;
     place-items:center;
-    width: 320px;
-    height: 208px;
-    border-radius: 28px;
+    width: 30vh;
+    height: 20vh;
+    border-radius:2.8vh;
     border:1px solid rgba(255, 255, 255, 0.16);
     background:rgba(28, 28, 28, 0.92);
     color:white;
-    font-size: 24px;
+    font-size: 1.8vh;
     line-height:1;
-    margin:10px;
-    margin-top:10px;
+    margin:1vh;
+    margin-top:0.8vh;
     transition:transform 0.3s ease-in-out;
 }
 
@@ -193,9 +183,8 @@ transform:scale(1.6);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height:400px;
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding-top: 13vh;
+    padding-bottom: 4.8vh;
     margin: 0;
     transform: scale(1.2);
     transform-origin:center;
@@ -226,7 +215,7 @@ display:flex;
 }
 
 .h3{
-margin-top:15px;
+margin-top:1.5vh;
 }
 
 strong{
@@ -244,5 +233,5 @@ transform:scale(1.4);
 }
 
 .hbio{
-transform:translateY(-15px)
+transform:translateY(-1.5vh)
 }
