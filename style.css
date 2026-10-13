@@ -93,10 +93,10 @@ body{
     display: flex;
     justify-content:center;
     align-items:center;
-    width: 10ddvh;
-    height: 4ddvh;
+    width: 10dvh;
+    height: 4dvh;
     border-radius: 5dvh;
-    border:1px solid rgba(255, 255, 255, 0.16);
+    border:0.2dvh solid rgba(255, 255, 255, 0.16);
     background:rgba(28, 28, 28, 0.92);
     color:white;
     font-size: 1.2dvh;
