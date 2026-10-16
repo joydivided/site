@@ -4,7 +4,7 @@
     align-items: center;
     column-gap: 35px;
     padding:0 20px;
-    height:calc(4dvh + 10px);
+    height:5.3dvh;
     font-family: "pliant", sans-serif;
     list-style:none;
     position:fixed;
@@ -15,7 +15,7 @@
     z-index:1000;
     backdrop-filter:blur(5px);
     background-color: rgba(15, 15, 15, 0.75);
-    width:calc(37dvh + 10px);
+    width:37dvh;
     border-radius:3dvh;
 }
 
